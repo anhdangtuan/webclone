@@ -13,7 +13,7 @@ const HomeBlog = ({ data, product }) => {
             return (
               <div className="Section8">
                 <div>
-                  <img className="img1 img-common" alt="img1" src={item} />
+                  <img className="img-common" alt="img1" src={item} />
                 </div>
               </div>
             );

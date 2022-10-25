@@ -1,6 +1,6 @@
 import React from "react";
 import Ssection1 from "./style.home.hello";
-const Section1 = () => {
+const HomeHello = () => {
   return (
     <Ssection1>
       <div className="Section1">
@@ -21,4 +21,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default HomeHello;

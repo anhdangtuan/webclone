@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 const Ssection8 = styled.div`
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   .Section8 {
     display: flex;
     flex-direction: row;
@@ -9,8 +12,9 @@ const Ssection8 = styled.div`
   }
 
   .img-common {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
   }
   .img2 {
     padding-left: 10px;

@@ -2,13 +2,19 @@ import styled from "styled-components";
 
 const Ssection1 = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   justify-items: center;
+
+  .img {
+    display: flex;
+    justify-content: center;
+  }
   .Section_blog {
     display: flex;
     flex-direction: column;
-
     justify-items: center;
+    justify-content: center;
     padding-top: 60px;
   }
   .Section1_blog {
@@ -25,7 +31,9 @@ const Ssection1 = styled.div`
     padding-right: 10px;
   }
   .product {
-    display: block;
+    display: flex;
+    flex-direction: inherit;
+    justify-items: center;
   }
 `;
 export default Ssection1;
