@@ -5,6 +5,8 @@ const Ssection5 = styled.div`
   text-align: left;
   .Section5 {
     padding: 150px 100px;
+    display: flex;
+    justify-content: center;
   }
 
   .text5 {
@@ -32,14 +34,14 @@ const Ssection5 = styled.div`
     width: 90%;
   }
   .content5-1 {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
   .content5-3 {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
   .content5-4 {
-    padding-bottom: 60px;
-    padding-top: 30px;
+    /* padding-bottom: 60px;
+    padding-top: 30px; */
   }
   .title5-1 {
     font-size: 25px;
@@ -52,6 +54,26 @@ const Ssection5 = styled.div`
   }
   .title5-4 {
     font-size: 25px;
+  }
+  @media only screen and (max-width: 576px) {
+    .text5 {
+      display: flex;
+      flex-direction: column;
+    }
+    .content5-1-2 {
+      padding-left: 10px;
+      text-align: center;
+      width: 100%;
+    }
+    .content5-3-4 {
+      padding-right: 10px;
+      padding-left: 10px;
+      text-align: center;
+      width: 100%;
+    }
+    .Section5 {
+      padding: 0px;
+    }
   }
 `;
 export default Ssection5;

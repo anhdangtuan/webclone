@@ -8,19 +8,21 @@ import Section6 from "../components/Myblog/home.myblog";
 import Section7 from "../components/Sections/home.maxim";
 import Section8 from "../components/Footer/home.footer";
 import HomeHello from "../components/Sections/home.hello";
+import { Row, Col } from "antd";
 const HomePage = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+
       <HomeHello />
       <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />
-      <Section6 />
-      <Section7 />
+      {/* <Section6 /> */}
+      {/*<Section7 />
       <Section8 />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

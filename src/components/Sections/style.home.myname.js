@@ -25,5 +25,14 @@ const Ssection3 = styled.div`
     align-content: center;
     align-items: center;
   }
+  @media only screen and (max-width: 576px) {
+    .title3 {
+      padding: 0px;
+      font-size: 40px;
+    }
+    .content3 {
+      padding: 0px;
+    }
+  }
 `;
 export default Ssection3;

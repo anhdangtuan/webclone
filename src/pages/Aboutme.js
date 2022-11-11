@@ -10,7 +10,7 @@ import Section8 from "../components/Footer/home.footer";
 const AboutmePage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Section1_aboutme />
       <Section2 />
       <Section2_aboutme />

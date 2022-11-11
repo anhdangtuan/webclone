@@ -25,7 +25,7 @@ const Ssection1 = styled.div`
     text-align: center;
   }
   .img1 {
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     width: 600px;
     height: 300px;
     padding-right: 10px;
@@ -34,6 +34,16 @@ const Ssection1 = styled.div`
     display: flex;
     flex-direction: inherit;
     justify-items: center;
+  }
+  .content1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* width: 500px;
+    height: 30px; */
+  }
+  .pagination {
+    text-align: center;
   }
 `;
 export default Ssection1;

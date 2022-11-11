@@ -36,5 +36,36 @@ const Ssection4 = styled.div`
     width: 120px;
     color: white;
   }
+  @media only screen and (max-width: 576px) {
+    .Section4 {
+      padding: 0px;
+    }
+    .img4 {
+      width: 100%;
+      padding-right: 0px;
+      img {
+        width: 100%;
+      }
+    }
+    .content4 {
+      padding: 0px;
+      text-align: center;
+    }
+    .title4 {
+      font-size: 40px;
+      padding: 0px;
+      padding-left: 120px;
+    }
+    .button-services {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .button4 {
+      height: 50px;
+      width: 120px;
+      margin-left: 0px;
+    }
+  }
 `;
 export default Ssection4;

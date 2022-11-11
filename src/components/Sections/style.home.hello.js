@@ -37,5 +37,44 @@ const Ssection1 = styled.div`
     width: 120px;
     color: white;
   }
+  /* mobile */
+  @media only screen and (max-width: 576px) {
+    .Section1 {
+      padding: 0px;
+    }
+
+    .text1 {
+      padding-left: 0px;
+    }
+    .title {
+      padding: 0px;
+      font-size: 45px;
+      text-align: center;
+    }
+    .content1 {
+      padding: 5px;
+      text-align: center;
+    }
+    .button-contract {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .button1 {
+      margin-block: center;
+      background-color: black;
+      height: 50px;
+      width: 120px;
+      color: white;
+      margin-left: 0px;
+    }
+    .img1 {
+      width: 100%;
+      padding: 0px;
+    }
+    .imghello {
+      width: 100%;
+    }
+  }
 `;
 export default Ssection1;

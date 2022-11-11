@@ -1,10 +1,12 @@
 import React from "react";
 import Ssection3 from "./style.home.myname";
+import { Row, Col } from "antd";
+
 const Section3 = () => {
   return (
     <Ssection3>
-      <div className="Section3">
-        <div className="text3">
+      <Row className="Section3">
+        <Col xs={24} className="text3">
           <h1 className="title3">My name is Dovile!</h1>
           <div className="content3">
             I'm your new social media bestie. My mission is to help small and
@@ -15,8 +17,8 @@ const Section3 = () => {
             understand the power of social media and create connections that go
             beyond the internet.
           </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </Ssection3>
   );
 };

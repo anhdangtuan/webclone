@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Snavbar = styled.div`
   text-align: center;
+  background-color: yellow;
   .nav {
     z-index: 16;
     display: grid;

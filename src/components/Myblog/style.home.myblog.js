@@ -38,5 +38,16 @@ const Ssection6 = styled.div`
     color: white;
     margin-top: 80px;
   }
+  @media only screen and (max-width: 576px) {
+    .title6 {
+      padding: 0px;
+    }
+    .content6 {
+      padding: 20px 0px;
+    }
+    .button6 {
+      padding-left: 0px;
+    }
+  }
 `;
 export default Ssection6;

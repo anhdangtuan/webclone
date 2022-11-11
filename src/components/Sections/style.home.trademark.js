@@ -29,5 +29,14 @@ const Ssection2 = styled.span`
     font-weight: 700;
     padding-bottom: 25px;
   }
+
+  @media only screen and (max-width: 576px) {
+    .lanihaw {
+      padding: 0px;
+    }
+    .featured {
+      padding: 0px;
+    }
+  }
 `;
 export default Ssection2;
